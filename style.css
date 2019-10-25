@@ -1,0 +1,77 @@
+header{
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  background-image: url(https://wallpaperstream.com/wallpapers/full/jennifer-lawrence/Jennifer-Lawrence-Vogue-Photoshoot.jpg);
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  padding-top: 0px;
+  text-align: center;
+  margin-top: 0px;
+}
+h1{
+  color: black;
+  padding-top: 250px;
+  padding-right: 600px;
+  font-size: 50px;
+}
+nav{
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  background-color: lightpink;
+  background-color: rgba(255,255,255,0.5);
+  position: fixed;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+
+}
+header img{
+  width: 1000px;
+  height: 500px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+nav li{
+  list-style-type: none;
+}
+nav a{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  background-color:
+  height: 50px;
+  width: 70px;
+}
+#vogue{
+  font-size: 50px;
+  color: white;
+}
+img{
+  width: 300px;
+}
+body{
+  background-color: lightgrey;
+  margin-top: 0px;
+  align-items: center;
+}
+main{
+  padding-top: 50px;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+}
+#vogue2{
+  width: 500px;
+  height: 400px;
+  grid-column-start: 1;
+  grid-column-gap: 4;
+}
